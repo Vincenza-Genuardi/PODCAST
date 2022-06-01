@@ -10,7 +10,7 @@ const cover = document.getElementById('cover');
 
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['ALL_CAPS', 'burn_it_all_down', 'Enemy'];
 // Keep track of song
 let songIndex = 2;
 
@@ -22,7 +22,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  cover.src = `images/${song}.png`;
 }
 
 
