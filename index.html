@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Podcast Player</title>
+    <script defer  src="js/play.js"></script>
+  </head>
+
+  <body>
+    <h1>Podcast Player</h1>
+    <h3> <a href="index.html">Podcast List</a>  </h3>
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+      </div>
+
+      <audio   src="music/ukulele.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+      </div>
+
+
+
+      <div class="navigation">
+
+        <button id="prev" class="action-btn">
+          prev
+        </button>
+
+        <button id="play" class="action-btn action-btn-big">
+         play
+        </button>
+
+        <button id="next" class="action-btn">
+         next
+        </button>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
