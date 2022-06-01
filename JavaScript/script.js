@@ -10,7 +10,7 @@ const cover = document.getElementById('cover');
 
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['ALL_CAPS', 'burn_it_all_down', 'Enemy'];
 // Keep track of song
 let songIndex = 2;
 
